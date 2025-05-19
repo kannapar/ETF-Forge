@@ -1,10 +1,17 @@
-# ETF-Forge
+# ETF Forge
+Overview:
 
-Identifies uncorrelated ETFs for diversification using correlation filtering and hierarchical clustering. Computes Sharpe ratios, max drawdown, and volatility metrics to support informed selection.
+ETF Forge is a Python-based analytical tool designed to identify uncorrelated Exchange-Traded Funds (ETFs) to enhance portfolio diversification. It leverages correlation filtering and hierarchical clustering to select ETF combinations that reduce overlap and improve risk-adjusted returns.
 
-•	Correlation heatmaps and dendrogram-based clustering
+Key Features:
+- Correlation Heatmaps & Clustering: Uses dendrogram-based hierarchical clustering to visualize relationships between ETFs and identify diversification opportunities.
 
-•	Risk-return analysis of selected ETFs
+- Risk-Return Analysis: Calculates Sharpe ratio, maximum drawdown, and volatility for informed decision-making.
 
-•	Built for integration into personal finance dashboards
+- Portfolio Insights: Supports integration into personal finance dashboards for dynamic ETF screening and tracking.
 
+
+Technologies Used: Python, Pandas, NumPy, Matplotlib, SciPy
+
+
+Use Case: Ideal for individual investors and analysts looking to construct ETF portfolios that are both data-driven and resilient to market co-movements.
